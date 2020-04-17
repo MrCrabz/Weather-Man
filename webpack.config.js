@@ -9,12 +9,7 @@ const config = {
   devServer: { historyApiFallback: true },
   plugins: [
     new CopyWebpackPlugin([{ from: "./src/assets", to: "assets" }]),
-    new MiniCssExtractPlugin({ filename: "styles.css" }),
-    new HtmlWebpackPlugin({
-      template: "./src/index.ejs",
-      filename: "./index.html",
-      vars: {}
-    })
+    new MiniCssExtractPlugin({ filename: "styles.css" })
   ],
   module: {
     rules: [
