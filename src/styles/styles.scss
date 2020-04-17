@@ -1,0 +1,17 @@
+@import "navigation.scss";
+@import "footer.scss";
+@import "core.scss";
+
+
+#app{
+  margin: 0 auto;
+  text-align: center;
+
+  p, a, span, h2, h3, h4, h5, h6{
+    font-family: "Poppins";
+    margin: 0px !important;
+  }
+  *{
+    transition: .7s;
+  }
+}

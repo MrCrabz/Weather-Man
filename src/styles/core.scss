@@ -1,0 +1,14 @@
+.core{
+
+  .weatherButton{
+    background-color: transparent;
+    border: 2px solid rgb(185, 68, 68);
+    color: rgb(185, 68, 68);
+    border-radius: 999px;
+    font-size: 15px;
+  }
+  .weatherButton:hover, .weatherButton:active, .weatherButton:focus{
+    background-color: rgb(185, 68, 68);
+    color: rgb(255, 254, 226);
+  }
+}
